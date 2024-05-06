@@ -81,7 +81,6 @@ def run_selenium():
 
     return all_data
 
-
 # Define a DAG that runs the playwright script every day
 dag = DAG(
     dag_id="selenium_dag",
